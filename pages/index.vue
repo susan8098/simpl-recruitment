@@ -47,21 +47,26 @@ export default {
   justify-content: center;
   align-items: center;
   animation: 1s appear;
+  padding: 40px;
 }
+
 .p-Index_Text {
   margin-top: 60px;
   padding-bottom: 60px;
   animation: 1.2s slideup;
 }
+
 p {
   color: #E5E5E5;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin: 8px;
   letter-spacing: .8px;
 }
+
 a {
   color: #BE9A3B;
 }
+
 button {
   background: #1E849A;
   border: none;
