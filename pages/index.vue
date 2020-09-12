@@ -58,7 +58,7 @@ export default {
 
 p {
   color: #E5E5E5;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 8px;
   letter-spacing: .8px;
 }
