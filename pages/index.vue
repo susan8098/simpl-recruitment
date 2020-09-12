@@ -15,14 +15,7 @@
 export default {
   head() {
     return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Simplr recruitment is a specialized fiance and accounting recruitment agency based in Toronto.'
-        }
-      ]
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }]
     };
   },
 };

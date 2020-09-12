@@ -19,7 +19,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Simplr recruitment is a specialized fiance and accounting recruitment agency based in Toronto.' }
+      { hid: 'description', name: 'description', content: 'Simplr recruitment is a specialized finance and accounting recruitment agency based in Toronto.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
