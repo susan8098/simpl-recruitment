@@ -1,5 +1,6 @@
 <template>
   <div class="p-Index">
+    <h1 class="visually-hidden">Simplr Recruitment</h1>
     <Logo />
     <div class="p-Index_Text">
       <p>Our site will be launching very soon!</p>
@@ -15,6 +16,13 @@ export default {
   head() {
     return {
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Simplr recruitment is a specialized fiance and accounting recruitment agency based in Toronto.'
+        }
+      ]
     };
   },
 };
@@ -36,6 +44,16 @@ export default {
   0% {
     transform: translateY(40px);
   }
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .p-Index {
