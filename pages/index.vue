@@ -26,6 +26,17 @@ export default {
     opacity: 0;
   }
 }
+@keyframes slideup {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  0% {
+    transform: translateY(40px);
+  }
+}
 
 .p-Index {
   background: #062b33;
@@ -40,10 +51,11 @@ export default {
 .p-Index_Text {
   margin-top: 60px;
   padding-bottom: 60px;
+  animation: 1.2s slideup;
 }
 p {
   color: #E5E5E5;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 8px;
   letter-spacing: .8px;
 }

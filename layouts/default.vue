@@ -12,6 +12,10 @@
   src: url('~assets/fonts/LibreBaskerville-Regular.ttf') format('truetype');
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 html {
   font-family:
     'Libre Baskerville'
@@ -23,7 +27,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
 *,

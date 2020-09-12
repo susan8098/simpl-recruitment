@@ -13,5 +13,6 @@
 <style>
 .logo {
   width: 200px;
+  animation: 1.2s slideup;
 }
 </style>
