@@ -53,7 +53,8 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Axios module configuration
@@ -71,5 +72,20 @@ export default {
     UserAgent: '*',
     Disallow: '/admin',
     Sitemap: 'https://findsimplr.com/sitemap.xml'
+  },
+  // sitemap
+  sitemap: {
+    hostname: 'https://findsimplr.com',
+    exclude: [
+      '/admin',
+      '/admin/**'
+    ],
+    routes: [
+      {
+        url: '/',
+        priority: 1,
+        lastmod: '2020-09-13'
+      }
+    ]
   }
 }
