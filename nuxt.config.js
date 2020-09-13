@@ -70,6 +70,6 @@ export default {
   robots: {
     UserAgent: '*',
     Disallow: '/admin',
-    Sitemap: '/sitemap.xml'
+    Sitemap: 'https://findsimplr.com/sitemap.xml'
   }
 }
