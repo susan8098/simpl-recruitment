@@ -1,4 +1,4 @@
-# simpl
+# Simplr Recruitment Site
 
 ## Build Setup
 

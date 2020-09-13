@@ -53,6 +53,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/robots'
   ],
   /*
   ** Axios module configuration
@@ -64,5 +65,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+  // robots.txt config
+  robots: {
+    UserAgent: '*',
+    Disallow: '/admin',
+    Sitemap: '/sitemap.xml'
   }
 }
