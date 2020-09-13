@@ -56,6 +56,11 @@ export default {
     '@nuxtjs/robots',
     '@nuxtjs/sitemap'
   ],
+  pwa: {
+    icon: {
+      source: 'static/icon.png'
+    }
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
